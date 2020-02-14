@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:100");
+/* @import url("https://fonts.googleapis.com/css?family=Lato:100"); */
+@font-face {
+	font-family: 'keai';
+	src: url('./keai.otf');
+}
 html,
 body {
   width: 100%;
@@ -24,15 +28,15 @@ body {
 }
 .unit p {
   margin-top: 100px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'keai';
   font-weight: 100;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  color: red;
+  /* letter-spacing: 2px; */
+  color: #ff6a6a;
 }
-.unit p span {
+/* .unit p span {
   color: red;
-}
+} */
 .heart {
   position: relative;
   font-size: 0;
